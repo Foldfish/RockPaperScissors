@@ -1,0 +1,67 @@
+h1{
+	word-spacing: 10px;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-style: bold;
+}
+h2{
+	font-size: 25px;
+	position: relative;
+}
+h3{
+	font-size: 13px;
+	font-family: sans-serif;
+
+}
+a{
+	margin-top: 30px; 
+	margin-bottom: 15px; 
+	font-size: 30px;
+	margin-left: 0px;
+	font-style: italic;
+	font-family: sans-serif;
+}
+body{
+	text-align: center;
+	align-content: center;
+	position: relative;
+	white-space: nowrap;
+}
+header{
+	width: 100%;
+	display: block;
+	background-color: #ffa500;
+	border-bottom: 5px solid black;
+	margin-bottom: 15px;
+}
+#rock_btn{
+	background-color: #CC66FF;
+}
+#paper_btn{
+	background-color: #FF99CC;
+}
+#scissors_btn{
+	background-color: #66FFCC;
+}
+.btn{
+	margin: 70px 70px 70px 70px;
+	height: 10em;
+	width: 10em;
+	position: relative;
+	border: solid #333333;
+	border-radius: 75%;
+}
+.btn:focus{
+	outline: 0;
+	outline-color: initial;
+	outline-style: initial;
+	outline-width: 0px;
+}
+.btn:hover{
+	box-shadow: 5px 5px #888888;
+	opacity: .75;
+}
+.images{
+	height: 40%;
+}
+
